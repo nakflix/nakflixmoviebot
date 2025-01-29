@@ -51,8 +51,8 @@ SUPPORT_CHAT_ID = -4604277514
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://nakflixbot:alpha3720@cluster0.gbt7w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://kidderke8:alpha3720@nakflixlink1bot.u6zva.mongodb.net/?retryWrites=true&w=majority&appName=nakflixlink1bot")
+DATABASE_NAME = environ.get('DATABASE_NAME', "nakflixlink1bot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'TechVJBot')
 
 # Others
