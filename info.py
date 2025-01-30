@@ -29,11 +29,11 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 BOT_START_TIME = time()
 
 # Bot images & videos
-PICS = (environ.get('PICS', 'https://telegra.ph/file/25a9d291a2b64dec90426.jpg')).split()
-REQ_PICS = (environ.get('REQ_PICS', 'https://telegra.ph/file/25a9d291a2b64dec90426.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/0593a3103ba1b9a5855bf.jpg")
+PICS = (environ.get('PICS', 'https://telegra.ph/file/9e8ff574c512c53cd6bf2.jpg')).split()
+REQ_PICS = (environ.get('REQ_PICS', 'https://telegra.ph/file/9e8ff574c512c53cd6bf2.jpg')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/72d0524461d93cd283501.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://envs.sh/af8.mp4")
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/2a888a370f479f4338f7c.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/c9a73d4c3831eff5fd16f.jpg")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1458235021').split()]
@@ -51,8 +51,8 @@ SUPPORT_CHAT_ID = -1001585995212
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://kidderke8:alpha3720@nakflixlink1bot.u6zva.mongodb.net/?retryWrites=true&w=majority&appName=nakflixlink1bot")
-DATABASE_NAME = environ.get('DATABASE_NAME', "nakflixlink1bot")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://nakflixbot:alpha3720@cluster0.gbt7w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'TechVJBot')
 
 # Others
