@@ -22,7 +22,7 @@ async def save_group(bot, message):
             await db.add_chat(message.chat.id, message.chat.title)
         if message.chat.id in temp.BANNED_CHATS:
             buttons = [[
-                InlineKeyboardButton('🌐 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 🌐', url="https://t.me/Netflixextrafiles}")
+                InlineKeyboardButton('🌐 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 🌐', url="https://t.me/NAKFLIXTV}")
             ]]
             reply_markup=InlineKeyboardMarkup(buttons)
             k = await message.reply(
@@ -37,8 +37,8 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-            InlineKeyboardButton('🧩 𝖲𝖴𝖯𝖯𝖮𝖱𝖳 🧩', url="https://t.me/+N11vNgcMFlwxZjc8"),
-            InlineKeyboardButton('⚡𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ⚡', url="https://t.me/netflixextra5")
+            InlineKeyboardButton('🧩 𝗡𝗔𝗞𝗙𝗟𝗜𝗫𝗣𝗟𝗨𝗦 🧩', url="https://t.me/NAKFLIXPLUS"),
+            InlineKeyboardButton('⚡ 𝗡𝗔𝗞𝗙𝗟𝗜𝗫𝗧𝗩 ⚡', url="https://t.me/NAKFLIXTV")
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -58,8 +58,8 @@ async def save_group(bot, message):
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('🧩 𝖲𝖴𝖯𝖯𝖮𝖱𝖳 🧩', url="https://t.me/+N11vNgcMFlwxZjc8"),
-            InlineKeyboardButton('⚡𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ⚡', url="https://t.me/netflixextra5")
+            InlineKeyboardButton('🧩 𝗡𝗔𝗞𝗙𝗟𝗜𝗫𝗣𝗟𝗨𝗦 🧩', url="https://t.me/NAKFLIXPLUS"),
+            InlineKeyboardButton('⚡ 𝗡𝗔𝗞𝗙𝗟𝗜𝗫𝗧𝗩 ⚡', url="https://t.me/NAKFLIXTV")
         ]]
                                                  ),
                                                  parse_mode=enums.ParseMode.HTML
@@ -84,8 +84,8 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('🧩 𝖲𝖴𝖯𝖯𝖮𝖱𝖳 🧩', url="https://t.me/+N11vNgcMFlwxZjc8}"),
-            InlineKeyboardButton('⚡𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ⚡', url="https://t.me/netflixextra5")
+           InlineKeyboardButton('🧩 𝗡𝗔𝗞𝗙𝗟𝗜𝗫𝗣𝗟𝗨𝗦 🧩', url="https://t.me/NAKFLIXPLUS"),
+            InlineKeyboardButton('⚡ 𝗡𝗔𝗞𝗙𝗟𝗜𝗫𝗧𝗩 ⚡', url="https://t.me/NAKFLIXTV")
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -124,8 +124,8 @@ async def disable_chat(bot, message):
     await message.reply('Chat Successfully Disabled')
     try:
         buttons = [[
-            InlineKeyboardButton('🧩 𝖲𝖴𝖯𝖯𝖮𝖱𝖳 🧩', url="https://t.me/+N11vNgcMFlwxZjc8}"),
-            InlineKeyboardButton('⚡𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ⚡', url="https://t.me/netflixextra5")
+            InlineKeyboardButton('🧩 𝗡𝗔𝗞𝗙𝗟𝗜𝗫𝗣𝗟𝗨𝗦 🧩', url="https://t.me/NAKFLIXPLUS"),
+            InlineKeyboardButton('⚡ 𝗡𝗔𝗞𝗙𝗟𝗜𝗫𝗧𝗩 ⚡', url="https://t.me/NAKFLIXTV")
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
