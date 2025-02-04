@@ -7,7 +7,7 @@ from pyrogram.errors import UserIsBlocked, PeerIdInvalid
 async def accept_request(client, r):
 
     rm = InlineKeyboardMarkup([[
-        InlineKeyboardButton("❤sᴇʀɪᴇs/Tᴠsʜᴏᴡs🎥", url="https://t.me/NAKFLIXTV"),
+        InlineKeyboardButton("❤sᴇʀɪᴇs🎥", url="https://t.me/NAKFLIXTV"),
         InlineKeyboardButton("⚡ᴍᴏᴠɪᴇs⚡", url="https://t.me/NAKFLIXPLUS")
     ]])
     
@@ -15,7 +15,7 @@ async def accept_request(client, r):
         await client.send_photo(
             r.from_user.id,
             'https://telegra.ph/file/9e8ff574c512c53cd6bf2.jpg',
-            f"**𝖧𝖾𝗅𝗅𝗈 {r.from_user.mention} 👻, 𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝖳𝗈 {r.chat.title}\n𝖸𝗈𝗎𝗋 𝖱𝖾𝗊𝗎𝖾𝗌𝗍 𝖧𝖺𝗌 𝖡𝖾𝖾𝗇 𝖠𝗉𝗉𝗋𝗈𝗏𝖾𝖽...!!!**",
+            f"**ʜᴇʟʟᴏ {r.from_user.mention} 👻, ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ {r.chat.title}\nʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ʜᴀs ʙᴇᴇɴ ᴀᴘᴘʀᴏᴠᴇᴅ...!!!**",
             reply_markup=rm)
 
     except UserIsBlocked:
