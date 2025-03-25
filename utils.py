@@ -108,7 +108,7 @@ async def get_poster(query, bulk=False, id=False, file=None):
     return {
         'title': movie.get('title'),
         'votes': movie.get('votes'),
-        "aka": list_to_str(movie.get("akas")),
+        "aka": list_to_str(movie.get("AKA")),
         "seasons": movie.get("number of seasons"),
         "box_office": movie.get('box office'),
         'localized_title': movie.get('localized title'),
