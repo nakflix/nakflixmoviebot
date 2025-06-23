@@ -52,7 +52,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://nakflixbot:alpha3720@nakflixbot.gbt7w.mongodb.net/?retryWrites=true&w=majority&appName=nakflixbot")
-DATABASE_NAME = environ.get('DATABASE_NAME', "nakflixbot")
+DATABASE_NAME = environ.get('DATABASE_NAME', "nakflixtvbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'TechVJBot')
 
 # Others
