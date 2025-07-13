@@ -71,8 +71,8 @@ async def start(client, message):
             return
         btn = [
             [
-            InlineKeyboardButton(text="➥Join Channel🧃", url=f"https://t.me/nakflixplus"),
-            InlineKeyboardButton(text="➥Join Channel🥤", url=invite_link.invite_link),    
+            InlineKeyboardButton(text="➥Join Channel1️⃣", url=f"https://t.me/nakflixplus"),
+            InlineKeyboardButton(text="➥Join Channel2️⃣", url=invite_link.invite_link),    
             ]
         ]
 
