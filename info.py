@@ -36,7 +36,7 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://envs.sh/af8.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/c9a73d4c3831eff5fd16f.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6075271493').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1458235021').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001899642588').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users) if auth_users else []
