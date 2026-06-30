@@ -18,9 +18,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+API_ID = int(environ.get('API_ID', '14298205'))
+API_HASH = environ.get('API_HASH', '28df6d84da76d8606bf5f0e71ecfb62c')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7827040957:AAEk3BVebsgTqBSGH464qIHcTLQz5RraAHw')
 PORT = environ.get("PORT", "8080")
 
 # Bot settings
@@ -36,7 +36,7 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://envs.sh/af8.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/c9a73d4c3831eff5fd16f.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1458235021').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001899642588').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users) if auth_users else []
@@ -51,8 +51,8 @@ SUPPORT_CHAT_ID = -1001654755951
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://nakflixbot:alpha3720@nakflixbot.gbt7w.mongodb.net/?retryWrites=true&w=majority&appName=nakflixbot")
+DATABASE_NAME = environ.get('DATABASE_NAME', "nakflixbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'TechVJBot')
 
 # Others
